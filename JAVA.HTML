@@ -1,0 +1,119 @@
+<!doctype html>
+<head>
+         <link rel="stylesheet" href="Styles/style.css">
+      <script language="javascript" type="text/javascript" src="scripts/jusfile.js"></script>
+</head>
+   <body style="text-align: left;">
+   <script language="javascript" type="text/javascript">
+    document.write ("Learning Javascript!")
+    document.write ("25 February 2025")
+
+    var x=12;
+    var y=7;
+    var linebreak="<br/>"
+    add=x+y;
+    subtract=x-y;
+    divide=x/y;
+    multiply=x*y;
+    remainder=x%y;
+    increase=x++;
+    decrease=x--;
+
+    document.write(linebreak);
+    document.write("Arithmetic Operators")
+    document.write(linebreak);
+    document.write(add);
+    document.write(linebreak);
+    document.write(subtract);
+    document.write(linebreak);
+    document.write(divide);
+    document.write(linebreak);
+    document.write(multiply);
+    document.write(linebreak);
+    document.write(remainder);
+    document.write(linebreak);
+    document.write(increase);
+    document.write(linebreak);
+    document.write(decrease);
+    document.write(linebreak);
+    document.write("Comparison Operators")
+    document.write(linebreak);
+    document.write(x==y)
+    document.write(linebreak);
+    document.write(x<y)
+    document.write(linebreak);
+    document.write(x>y)
+    document.write(linebreak);
+    document.write(x<=y)
+    document.write(linebreak);
+    document.write(x>=y)
+    document.write(linebreak);
+    document.write(x!=y)
+    document.write(linebreak);
+    document.write("logical Operators")
+    document.write(linebreak);
+    child_age=15;
+    person="child"
+    document.write(child_age >10 &&person =="child") //LOGICAL AND(BOTH LEFT AND RIGHT CONDITIONS HAVE TO BE TRUE OR FALSE) 
+    document.write(linebreak);
+    document.write(child_age >10 ||person =="child") // LOGICAL OR(IF EITHER THE LEFT OR RIGHT CONDITION IS TRUE, THE RESULT ID TRUE)
+    document.write(linebreak);
+    document.write(!(child_age >10) &&person =="child") //LOGICAL NOT(NEGATE/CONTRADICT) 
+    document.write(linebreak);
+    document.write("Assignment Operators")
+    document.write(linebreak);
+    x+=y
+    document.write(x)
+    document.write(linebreak);
+
+    document.write("let vs var")
+    document.write(linebreak);
+    var price=1000;
+    {
+     var price=1200;
+     let quantity=10;
+     document.write(quantity); 
+    }
+    document.write(linebreak);
+    document.write(price);
+    document.write(linebreak);
+
+   //Arrays -array car -description
+   //let car-description= ["BMW" 45000000, "GREY", 2020]
+   //document.write(car_description);
+   //Javascript objects- relate to real-world objects
+   //const person={firstname:"Alex", lastname:"Doe", age:35};
+   //typeof operator- check data type of variable
+   //typeof 34;
+   //typeof "Alfred"
+   //typeof false; //
+
+    let today_date= new Date()
+    document.write(today_date)
+     //implicit type conversion
+    var month="Jan"
+    var year= 2010
+    document.write(linebreak)
+    document.write(month+year)
+    //explicit type conversion
+    document.write(linebreak)
+    document.write(typeof String(100)+ "<br/>");
+    document.write(typeof Number('100')+ "<br/>");
+    //FOR LOOPS
+    for (let i =0; i >10; i++) {
+     document.write(i + "<br/>");
+     }
+     //Conditional statements
+     document.write(linebreak);
+     if (age>18){
+      document.write("you are an Adult")
+     }else if(age>30){
+      document.write("you are above 30")
+     }else if(age>40){
+      document.write("you are above 40")
+     }else{
+      document.write("you are not an adult")
+     }
+  </script> 
+  </body>  
+</html>
