@@ -1,5 +1,5 @@
 # Atletico-web
-This is a website for online courses
+This is a website for online courses offering online learning 
 it includes:
 Home page
 About us page
